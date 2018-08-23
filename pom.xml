@@ -7,7 +7,18 @@
 	<groupId>com.aron</groupId>
 	<artifactId>ifast</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>ifast-admin</module>
+		<module>ifast-demo</module>
+		<module>ifast-common</module>
+		<module>ifast-job</module>
+		<module>ifast-generator</module>
+		<module>ifast-wxmp</module>
+		<module>ifast-oss</module>
+		<module>ifast-api</module>
+		<module>ifast-shiro</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>ifast</name>
 	<description>Aron fast devolop framework, ifast.</description>
@@ -41,13 +52,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<executable>true</executable>
-				</configuration>
-			</plugin>
 
 			<plugin>
 				<groupId>com.spotify</groupId>
