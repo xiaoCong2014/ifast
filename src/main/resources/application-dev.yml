@@ -24,7 +24,7 @@ ifast:
       rootURL: http://localhost:8088/upload
     aliyun: # 配置 accessKeySecret 启用阿里云OSS
       accessKeyId:
-#      accessKeySecret:
+      accessKeySecret:
       bucketName:
       # endpoint以深圳为例，其它region请按实际情况填写
       endpoint: http://oss-cn-shenzhen.aliyuncs.com

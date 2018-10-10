@@ -24,10 +24,10 @@ public class QiNiuUploadServer implements UploadServer {
 
     private UploadManager uploadManager;
     private Configuration cfg;
-    private QiNiuProperties config;
+    private QiNiuOSSProperties config;
 
 
-    public QiNiuUploadServer(QiNiuProperties config, Zone zone) {
+    public QiNiuUploadServer(QiNiuOSSProperties config, Zone zone) {
         cfg = new Configuration(zone);
         uploadManager = new UploadManager(cfg);
         this.config = config;
